@@ -7,7 +7,7 @@ const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
 module.exports = {
     // https://webpack.js.org/configuration/entry-context/
     //entry: './static/django_ckeditor_5/exemple.js',
-    entry: './static/django_ckeditor_5/app.js',
+    entry: path.resolve(__dirname, './static/django_ckeditor_5/app.js'),
 
     // https://webpack.js.org/configuration/output/
     output: {
